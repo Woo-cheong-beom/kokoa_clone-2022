@@ -1,0 +1,65 @@
+body {
+  height: 100vh;
+  background-color: rgb(245, 245, 245);
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 45px;
+  font-family: 1.2em "Fira Sans", serif;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.colorbox {
+  height: 300px;
+  width: 172px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  border: 5px solid white;
+}
+.inside {
+  background-color: white;
+  height: 101px;
+  width: 172px;
+  position: relative;
+  top: 15px;
+}
+
+span:first-child {
+  display: block;
+  font: 1.2em "Fira Sans", serif;
+  font-size: 17px;
+  padding-top: 20px;
+  font-weight: bolder;
+}
+span:last-child {
+  display: block;
+  font: 1.2em "Fira Sans", serif;
+  font-size: 10px;
+  padding-top: 23px;
+  font-weight: normal;
+}
+
+#firstline {
+  display: flex;
+  justify-content: center;
+}
+#secondline {
+  display: flex;
+  justify-content: center;
+}
+#teal {
+  background-color: teal;
+}
+
+#burlywood {
+  background-color: burlywood;
+}
+
+#tomato {
+  background-color: tomato;
+}
+
+#thistle {
+  background-color: thistle;
+}
